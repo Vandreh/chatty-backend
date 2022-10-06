@@ -1,0 +1,50 @@
+start the sistem for Windows:
+  npm run devs
+
+npm install -g typescript
+npm install -g nodemon
+
+npm init -y
+npm i typescript
+tsc --init
+
+npm i express
+npm i --save-dev @types/express
+
+npm i cors helmet hpp cookie-session compression express-async-errors http-status-codes
+npm i --save-dev @types/cors @types/hpp @types/cookie-session @types/compression
+
+npm i ts-node -D
+
+to change the method to call imports './..' for example
+npm install --save-dev tsconfig-paths
+npm i mongoose
+npm i dotenv
+npm install @socket.io/redis-adapter redis socket.io
+
+lib for replace console.log:
+npm i bunyan
+npm i --save-dev @types/bunyan
+
+extensions:
+    EditorConfig for VS Code
+    ESLint
+    Prettier
+
+npm i -D eslint eslint-config-prettier prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
+
+test Eslint (package.json):
+  npm run lint:check
+  npm run lint:fix
+  npm run prettier:check
+  npm run prettier:fix
+
+
+
+saving in GitHub:
+  git init
+  git add .
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/Vandreh/chatty-backend.git
+  git push -u origin main
